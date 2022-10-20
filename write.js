@@ -1,8 +1,8 @@
 const fs = require('fs')
 
-const write = function(data="default") {
+const write = function(cmd="default") {
 
-    fs.writeFileSync('note.txt' , data)
+    fs.writeFileSync('note.txt' , cmd)
     
 }
 
